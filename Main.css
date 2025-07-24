@@ -1,0 +1,527 @@
+/*The Whole Thing=================================================*/
+* {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+/*Header===========================================================*/
+header {
+    background-color: rgb(38, 38, 236);
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+header > a {
+    font-size: 1rem;
+    color: white;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+header > a:hover {
+    color: rgb(196, 196, 196);
+}
+header > select {
+    font-size: 1rem;
+    appearance: none;
+    background-color: transparent;
+    color: white;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+header > select:hover {
+    color: rgb(196, 196, 196);
+}
+input {
+    color: white;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 0.2rem;
+    padding:0.2rem;
+}
+header > img {
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/*Navigation=======================================================*/
+nav {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid gray ;
+    border-top: 1px solid gray ;
+}
+nav > a {
+    font-family: sans-serif;
+    font-weight: 900;
+    color: blue;
+    margin-right: 25%;
+    margin-left: 1%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+nav > select {
+    appearance: none;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 1rem;
+    margin-right: 1%;
+    margin-left: 1%;
+    width: 7rem;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+nav > select:nth-child(4) {
+    width: 10rem;
+}
+nav > select:nth-child(5) {
+    width: 12rem;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+nav > select:hover {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: calc(0.5em - 0.4em);
+    margin-bottom: calc(0.5em - 0.4em);
+}
+/*Main=============================================================*/
+main {
+    font-family: sans-serif;
+}
+/*Arthicle One=====================================================*/
+main > article > img {
+    width: 100%;
+}
+/*Arthicle Two======================================================*/
+article:nth-child(2) > figure > img{
+    width: 5rem;
+    height: 5rem;
+    margin: 1rem;
+    background-color: rgb(38, 38, 236);
+}
+article:nth-child(2) > figure:nth-child(1){
+    margin-left: 10%;
+}
+article:nth-child(2) > figure {
+    display: inline-block;
+    color: gray;
+    margin-right: 7%;
+    margin-left: 7%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+article:nth-child(2) > figure > img:hover {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.5rem;
+    background-color: gray;
+}
+article:nth-child(2) > figure:nth-child(2) > figcaption {
+    margin-left: 15%;
+}
+article:nth-child(2) > figure:nth-child(3) > figcaption {
+    margin-left: 10%;
+}
+article:nth-child(2) > figure:nth-child(4) > figcaption {
+    margin-left: 30%;
+}
+article:nth-child(2) > figure:nth-child(1) > figcaption {
+    margin-left: 13%;
+}
+article:nth-child(2) > figure > figcaption {
+    font-size: 1rem;
+}
+article:nth-child(2) > figure:nth-child(3) > img {
+    width: 7rem;
+}
+article:nth-child(2) > figure:nth-child(3) > img:hover {
+    width: 8rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+/*Arthicle Three====================================================*/
+main > article:nth-child(3) > div {
+    margin-top: 3rem;
+}
+main > article:nth-child(3) {
+    margin-bottom: 102px;
+}
+/*Section 1*/
+article:nth-child(3) > section:first-child {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+article:nth-child(3) > section:first-child > h2 {
+    margin-bottom: 2rem;
+}
+article:nth-child(3) > section:first-child > p {
+    color: gray;
+}
+/*Section 2-4*/
+article:nth-child(3) > div > section{
+    display: inline-block;
+    font-size: 1rem;
+    width: 25%;
+    height: 35rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    vertical-align: middle;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.259);
+}
+article:nth-child(3) > div > section:first-child {
+    margin-left: 6%;
+}
+article:nth-child(3) > div > section > img {
+    width: 100%;
+    margin-bottom: 6em;
+    border-top-left-radius:  1rem;
+    border-top-right-radius: 1rem;
+}
+article:nth-child(3) > div > section > h3 {
+    font-size: 1.2em;
+    margin: 1rem;
+    color: rgb(41, 41, 41);
+}
+article:nth-child(3) > div > section > p {
+    font-size: 0.9em;
+    margin: 1rem;
+    color: gray;
+}
+article:nth-child(3) > div > section > a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    padding: 1rem;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+article:nth-child(3) > div > section > a:hover {
+    background-color: rgb(188, 202, 255);
+}
+article:nth-child(3) > div > section:first-child > a {
+    margin-top: 1.5em;
+}
+article:nth-child(3) > div > section:nth-child(2) > a {
+    margin-top: 2.3em;
+}
+article:nth-child(3) > div > section:hover {
+    font-size: 1.06rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.49);
+}
+/*Article Four ======================================================*/
+main > article:nth-child(4) > h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*After Header*/
+article:nth-child(4) > div {
+    margin-bottom: 2rem;
+}
+article:nth-child(4) > div > section:first-child {
+    margin-left: 6%;
+}
+article:nth-child(4) > div > section {
+    display: inline-block;
+    font-size: 1rem;
+    width: 25%;
+    height: 27rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    vertical-align: middle;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.259);
+}
+article:nth-child(4) > div > section > h3  {
+    margin: 1rem;
+    font-size: 1em;
+}
+article:nth-child(4) > div > section > img {
+    width: 100%;
+}
+
+article:nth-child(4) > div > section > p {
+    font-size: 0.9em;
+    margin: 1rem;
+    color: gray;
+}
+article:nth-child(4) > div > section > a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    padding: 1rem;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+article:nth-child(4) > div > section:first-child > a {
+    margin-top: 2rem;
+}
+article:nth-child(4) > div > section:nth-child(2) > a {
+    margin-top: 2rem;
+}
+article:nth-child(4) > div > section:nth-child(3) > a {
+    margin-top: 3rem;
+}
+article:nth-child(4) > div > section:hover {
+    font-size: 1.06rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.49);
+}
+article:nth-child(4) > div > section > a:hover {
+    background-color: rgb(188, 202, 255);
+}
+/*Article Five ======================================================*/
+main > article:nth-child(5) {
+    margin-top: 5rem;
+}
+main > article:nth-child(5) > h2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/*After Header*/
+article:nth-child(5) > div > div{
+    display: inline-block;
+    vertical-align: middle;
+    width: 12%;
+    font-weight: 700;
+    height: 4.5rem;
+    margin: 1rem 1.5% 1rem 1.5%;
+    background-color: blue;
+    color: white;
+    padding: 2rem 0rem 0rem 2rem;
+    border-radius: 2rem;
+}
+article:nth-child(5) > div > div:first-child  {
+    margin-left: 7%;
+}
+/*Article Six ======================================================*/
+main > article:nth-child(6) {
+    margin: 3rem 0rem 0rem 3rem;
+}
+article:nth-child(6) > section{
+    margin: 0rem 0rem 2rem 6%;
+}
+article:nth-child(6) > section > p {
+    font-size: 0.9em;
+    margin: 1rem 0rem 0rem 0rem;
+    color: gray;
+}
+/*After Header*/
+article:nth-child(6) > div > section {
+    display: inline-block;
+    font-size: 1rem;
+    width: 25%;
+    height: 35rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    vertical-align: middle;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.259);
+} 
+article:nth-child(6) > div > section > img {
+    width: 100%;
+    border-radius: 2rem;
+}
+article:nth-child(6) > div > section > p {
+    font-size: 0.9em;
+    margin: 1rem;
+    color: gray;
+}
+article:nth-child(6) > div > section > h3 {
+    margin: 1rem;
+    font-size: 1em;
+}
+article:nth-child(6) > div > section > a {
+    display: inline-block;
+    text-decoration: none;
+    color: blue;
+    padding: 1rem;
+    border: 1px solid blue;
+    border-radius: 1rem;
+    margin-left: 1rem;
+}
+article:nth-child(6) > div > section:first-child > a {
+    margin-top: 1rem;
+}
+article:nth-child(6) > div > section:nth-child(2) > a {
+    margin-top: 1rem;
+}
+article:nth-child(6) > div > section:hover {
+    font-size: 1.06rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.49);
+}
+article:nth-child(6) > div > section > a:hover {
+    background-color: rgb(188, 202, 255);
+}
+/*Article Seven =====================================================*/
+article:nth-child(7) {
+    margin: 3rem 0rem 0rem 3rem;
+}
+article:nth-child(7) > section {
+    margin: 0rem 0rem 2rem 6%;
+}
+article:nth-child(7) > section > p {
+    font-size: 0.9em;
+    margin: 1rem 0rem 0rem 0rem;
+    color: gray;
+}
+/*After Header*/
+article:nth-child(7) > div > section {
+    display: inline-block;
+    font-size: 1rem;
+    width: 29%;
+    height: 30rem;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: middle;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.259);
+}
+iframe {
+    width: 100%;
+    height: 13rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+article:nth-child(7) > div > section:first-child {
+    margin-left: 2%;
+}
+article:nth-child(7) > div > section > p {
+    font-size: 0.9em;
+    margin: 1rem;
+    color: gray;
+}
+article:nth-child(7) > div > section > h3 {
+    margin: 1rem;
+    font-size: 1em;
+}
+article:nth-child(7) > div > section:hover {
+    font-size: 1.06rem;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.49);
+}
+/*Footer ============================================================*/
+footer {
+    background-color: rgba(6, 6, 6, 0.926);
+    margin-top: 2rem;
+    color: white;
+    font-family: sans-serif;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+footer > article {
+    display: inline-block;
+    margin: 2rem 1.2% 4rem 1.2%;
+    padding-bottom: 4rem;
+}
+footer > article > a {
+    display: block;
+}
+footer > article:last-child {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+footer > article > h2 {
+    color: rgba(0, 0, 255, 0.719);
+    margin-bottom: 1rem;
+}
+footer > article > a {
+    color: rgba(255, 255, 255, 0.764);
+    margin: 0.2rem 0rem 0.2rem 0rem;
+}
+footer > article:first-child {
+    margin-left: 3.5%;
+}
+footer > article:last-child > figure > img {
+    height: 20px;
+    width: 20px;
+}
+footer > article:last-child > figure {
+    display: inline-block;
+    vertical-align: bottom;
+    margin: 0px 3% 0px 3%;
+}
+footer > article:last-child > figure:last-child {
+    width: 25%;
+    margin-left: 17%;
+}
+footer > article:last-child > figure > p {
+    display: inline;
+}
+footer > article:last-child > figure:first-child > img{
+    width: 50%;
+    height: 5rem;
+    margin-left: 20%;
+    background-color: white;
+}
+footer > article:last-child > figure:last-child > h3 {
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 500;
+}
+footer > article:last-child > figure:last-child > a:nth-child(2) {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background-image: url(Facebook.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+footer > article:last-child > figure:last-child > a:nth-child(3) {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;
+    background-image: url(X.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: cente
+}
+footer > article:last-child > figure:last-child > a:nth-child(4) {
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-left: 4%;
+    margin-right: 4%;
+    height: 40px;
+    width: 40px;;
+    background-image: url(Telegram.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+footer > article > a:hover {
+    color: rgba(0, 0, 255, 0.719);
+}
